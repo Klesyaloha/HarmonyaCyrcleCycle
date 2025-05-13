@@ -29,9 +29,22 @@
 		76CD43552DD331B000ABE88E /* HarmonyaCyrcleCycleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HarmonyaCyrcleCycleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		76CD43B52DD3710200ABE88E /* Exceptions for "HarmonyaCyrcleCycle" folder in "HarmonyaCyrcleCycle" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 76CD43382DD331AE00ABE88E /* HarmonyaCyrcleCycle */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		76CD433B2DD331AE00ABE88E /* HarmonyaCyrcleCycle */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				76CD43B52DD3710200ABE88E /* Exceptions for "HarmonyaCyrcleCycle" folder in "HarmonyaCyrcleCycle" target */,
+			);
 			path = HarmonyaCyrcleCycle;
 			sourceTree = "<group>";
 		};
@@ -399,6 +412,7 @@
 				DEVELOPMENT_TEAM = UGYM622S92;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = HarmonyaCyrcleCycle/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -428,6 +442,7 @@
 				DEVELOPMENT_TEAM = UGYM622S92;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = HarmonyaCyrcleCycle/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
