@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		76CD434C2DD331B000ABE88E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 76CD43312DD331AE00ABE88E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 76CD43382DD331AE00ABE88E;
+			remoteInfo = HarmonyaCyrcleCycle;
+		};
+		76CD43562DD331B000ABE88E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 76CD43312DD331AE00ABE88E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 76CD43382DD331AE00ABE88E;
+			remoteInfo = HarmonyaCyrcleCycle;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		76CD43392DD331AE00ABE88E /* HarmonyaCyrcleCycle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HarmonyaCyrcleCycle.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		76CD434B2DD331B000ABE88E /* HarmonyaCyrcleCycleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HarmonyaCyrcleCycleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		76CD43552DD331B000ABE88E /* HarmonyaCyrcleCycleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HarmonyaCyrcleCycleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		76CD433B2DD331AE00ABE88E /* HarmonyaCyrcleCycle */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = HarmonyaCyrcleCycle;
+			sourceTree = "<group>";
+		};
+		76CD434E2DD331B000ABE88E /* HarmonyaCyrcleCycleTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = HarmonyaCyrcleCycleTests;
+			sourceTree = "<group>";
+		};
+		76CD43582DD331B000ABE88E /* HarmonyaCyrcleCycleUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = HarmonyaCyrcleCycleUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		76CD43362DD331AE00ABE88E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		76CD43482DD331B000ABE88E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		76CD43522DD331B000ABE88E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		76CD43302DD331AE00ABE88E = {
+			isa = PBXGroup;
+			children = (
+				76CD433B2DD331AE00ABE88E /* HarmonyaCyrcleCycle */,
+				76CD434E2DD331B000ABE88E /* HarmonyaCyrcleCycleTests */,
+				76CD43582DD331B000ABE88E /* HarmonyaCyrcleCycleUITests */,
+				76CD433A2DD331AE00ABE88E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		76CD433A2DD331AE00ABE88E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				76CD43392DD331AE00ABE88E /* HarmonyaCyrcleCycle.app */,
+				76CD434B2DD331B000ABE88E /* HarmonyaCyrcleCycleTests.xctest */,
+				76CD43552DD331B000ABE88E /* HarmonyaCyrcleCycleUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		76CD43382DD331AE00ABE88E /* HarmonyaCyrcleCycle */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 76CD435F2DD331B000ABE88E /* Build configuration list for PBXNativeTarget "HarmonyaCyrcleCycle" */;
+			buildPhases = (
+				76CD43352DD331AE00ABE88E /* Sources */,
+				76CD43362DD331AE00ABE88E /* Frameworks */,
+				76CD43372DD331AE00ABE88E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				76CD433B2DD331AE00ABE88E /* HarmonyaCyrcleCycle */,
+			);
+			name = HarmonyaCyrcleCycle;
+			packageProductDependencies = (
+			);
+			productName = HarmonyaCyrcleCycle;
+			productReference = 76CD43392DD331AE00ABE88E /* HarmonyaCyrcleCycle.app */;
+			productType = "com.apple.product-type.application";
+		};
+		76CD434A2DD331B000ABE88E /* HarmonyaCyrcleCycleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 76CD43622DD331B000ABE88E /* Build configuration list for PBXNativeTarget "HarmonyaCyrcleCycleTests" */;
+			buildPhases = (
+				76CD43472DD331B000ABE88E /* Sources */,
+				76CD43482DD331B000ABE88E /* Frameworks */,
+				76CD43492DD331B000ABE88E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				76CD434D2DD331B000ABE88E /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				76CD434E2DD331B000ABE88E /* HarmonyaCyrcleCycleTests */,
+			);
+			name = HarmonyaCyrcleCycleTests;
+			packageProductDependencies = (
+			);
+			productName = HarmonyaCyrcleCycleTests;
+			productReference = 76CD434B2DD331B000ABE88E /* HarmonyaCyrcleCycleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		76CD43542DD331B000ABE88E /* HarmonyaCyrcleCycleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 76CD43652DD331B000ABE88E /* Build configuration list for PBXNativeTarget "HarmonyaCyrcleCycleUITests" */;
+			buildPhases = (
+				76CD43512DD331B000ABE88E /* Sources */,
+				76CD43522DD331B000ABE88E /* Frameworks */,
+				76CD43532DD331B000ABE88E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				76CD43572DD331B000ABE88E /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				76CD43582DD331B000ABE88E /* HarmonyaCyrcleCycleUITests */,
+			);
+			name = HarmonyaCyrcleCycleUITests;
+			packageProductDependencies = (
+			);
+			productName = HarmonyaCyrcleCycleUITests;
+			productReference = 76CD43552DD331B000ABE88E /* HarmonyaCyrcleCycleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		76CD43312DD331AE00ABE88E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					76CD43382DD331AE00ABE88E = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					76CD434A2DD331B000ABE88E = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 76CD43382DD331AE00ABE88E;
+					};
+					76CD43542DD331B000ABE88E = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 76CD43382DD331AE00ABE88E;
+					};
+				};
+			};
+			buildConfigurationList = 76CD43342DD331AE00ABE88E /* Build configuration list for PBXProject "HarmonyaCyrcleCycle" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 76CD43302DD331AE00ABE88E;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 76CD433A2DD331AE00ABE88E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				76CD43382DD331AE00ABE88E /* HarmonyaCyrcleCycle */,
+				76CD434A2DD331B000ABE88E /* HarmonyaCyrcleCycleTests */,
+				76CD43542DD331B000ABE88E /* HarmonyaCyrcleCycleUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		76CD43372DD331AE00ABE88E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		76CD43492DD331B000ABE88E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		76CD43532DD331B000ABE88E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		76CD43352DD331AE00ABE88E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		76CD43472DD331B000ABE88E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		76CD43512DD331B000ABE88E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		76CD434D2DD331B000ABE88E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 76CD43382DD331AE00ABE88E /* HarmonyaCyrcleCycle */;
+			targetProxy = 76CD434C2DD331B000ABE88E /* PBXContainerItemProxy */;
+		};
+		76CD43572DD331B000ABE88E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 76CD43382DD331AE00ABE88E /* HarmonyaCyrcleCycle */;
+			targetProxy = 76CD43562DD331B000ABE88E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		76CD435D2DD331B000ABE88E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		76CD435E2DD331B000ABE88E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		76CD43602DD331B000ABE88E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"HarmonyaCyrcleCycle/Preview Content\"";
+				DEVELOPMENT_TEAM = UGYM622S92;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Klesya.HarmonyaCyrcleCycle;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		76CD43612DD331B000ABE88E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"HarmonyaCyrcleCycle/Preview Content\"";
+				DEVELOPMENT_TEAM = UGYM622S92;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Klesya.HarmonyaCyrcleCycle;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		76CD43632DD331B000ABE88E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = UGYM622S92;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Klesya.HarmonyaCyrcleCycleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HarmonyaCyrcleCycle.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/HarmonyaCyrcleCycle";
+			};
+			name = Debug;
+		};
+		76CD43642DD331B000ABE88E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = UGYM622S92;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Klesya.HarmonyaCyrcleCycleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HarmonyaCyrcleCycle.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/HarmonyaCyrcleCycle";
+			};
+			name = Release;
+		};
+		76CD43662DD331B000ABE88E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = UGYM622S92;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Klesya.HarmonyaCyrcleCycleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HarmonyaCyrcleCycle;
+			};
+			name = Debug;
+		};
+		76CD43672DD331B000ABE88E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = UGYM622S92;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Klesya.HarmonyaCyrcleCycleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HarmonyaCyrcleCycle;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		76CD43342DD331AE00ABE88E /* Build configuration list for PBXProject "HarmonyaCyrcleCycle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				76CD435D2DD331B000ABE88E /* Debug */,
+				76CD435E2DD331B000ABE88E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		76CD435F2DD331B000ABE88E /* Build configuration list for PBXNativeTarget "HarmonyaCyrcleCycle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				76CD43602DD331B000ABE88E /* Debug */,
+				76CD43612DD331B000ABE88E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		76CD43622DD331B000ABE88E /* Build configuration list for PBXNativeTarget "HarmonyaCyrcleCycleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				76CD43632DD331B000ABE88E /* Debug */,
+				76CD43642DD331B000ABE88E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		76CD43652DD331B000ABE88E /* Build configuration list for PBXNativeTarget "HarmonyaCyrcleCycleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				76CD43662DD331B000ABE88E /* Debug */,
+				76CD43672DD331B000ABE88E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 76CD43312DD331AE00ABE88E /* Project object */;
+}
